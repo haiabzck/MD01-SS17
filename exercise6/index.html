@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise6</title>
+  <style>
+    *{
+      font-size: 25px;
+    }
+    td{
+      padding: 20px 55px;
+    }
+     #bn{
+      background-color: rgb(72, 162, 221);
+      color: white;
+     }
+     #cong,#tru,#nhan,#chia{
+      background-color: rgb(206, 200, 200);
+     }
+    </style>
+  </head>
+  <body>
+    <table border="1" cellspacing="20" cellpadding="40">
+      <thead>
+        <tr>
+          <th colspan="4" id="view"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="cong">+</td>
+          <td id="tru">-</td>
+          <td id="nhan">*</td>
+          <td id="chia">/</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td id="7">7</td>
+          <td id="8">8</td>
+          <td id="9">9</td>
+          <td rowspan="4" id="bn">=</td>
+        </tr>
+        <tr>
+          <td id="4">4</td>
+          <td id="5">5</td>
+          <td id="6">6</td>
+        </tr>
+         <tr>
+          <td id="1">1</td>
+          <td id="2">2</td>
+          <td id="3">3</td>
+        </tr>
+         <tr>
+          <td id="0">0</td>
+          <td id="cham">.</td>
+          <td id="xoa">C</td>
+        </tr>
+      </tfoot>
+    </table>
+    <!-- <div class="calculator">
+  <input type="text" id="display" readonly value="0">
+  <div class="buttons">
+    <button onclick="clearDisplay()" class="col-2">C</button>
+    <button onclick="deleteLast()">DEL</button>
+    <button onclick="appendOperator('/')">/</button>
+    
+    <button onclick="appendNumber('7')">7</button>
+    <button onclick="appendNumber('8')">8</button>
+    <button onclick="appendNumber('9')">9</button>
+    <button onclick="appendOperator('*')">*</button>
+    
+    <button onclick="appendNumber('4')">4</button>
+    <button onclick="appendNumber('5')">5</button>
+    <button onclick="appendNumber('6')">6</button>
+    <button onclick="appendOperator('-')">-</button>
+    
+    <button onclick="appendNumber('1')">1</button>
+    <button onclick="appendNumber('2')">2</button>
+    <button onclick="appendNumber('3')">3</button>
+    <button onclick="appendOperator('+')">+</button>
+    
+    <button onclick="appendNumber('0')" class="col-2">0</button>
+    <button onclick="appendNumber('.')">.</button>
+    <button onclick="calculate()">=</button>
+  </div>
+</div>
+
+<style>
+  .calculator { width: 250px; padding: 10px; border: 1px solid #ccc; border-radius: 8px; }
+  #display { width: 100%; height: 40px; text-align: right; margin-bottom: 10px; font-size: 1.2rem; }
+  .buttons { display: grid; grid-template-columns: repeat(4, 1fr); gap: 5px; }
+  button { padding: 15px; cursor: pointer; border-radius: 4px; border: 1px solid #ddd; }
+  button:hover { background: #eee; }
+  .col-2 { grid-column: span 2; }
+</style> -->
+    <script src="./script.js"></script>
+  </body>
+</html>
