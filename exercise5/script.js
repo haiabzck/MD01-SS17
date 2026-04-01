@@ -2,7 +2,7 @@ let username= "huanrose@gmail.com";
 let password= "123456";
 let form = document.getElementById('myForm');
 form.addEventListener('submit',(Event) => {
-    //Event.preventDefault();
+    
     let formData = new FormData(form); 
     console.log(formData.get('username'));
     console.log(formData.get('password'));

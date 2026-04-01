@@ -5,16 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exercise5</title>
   <style>
-      
+        body{
+           display: flex;
+          justify-content: center;
+        }
+        .login{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        }
+        .login h2{
+          background-color: aqua;
+          color: white;
+          padding: 10px;
+        }
+        input{
+          width: 79%;
+          margin: 10px 0;
+          padding: 10px 20px;
+        }
+        input[type="submit"]{
+          width: 95%;
+          color: white;
+          background-color: rgb(219, 18, 85);
+          border: 1px solid rgb(219, 18, 85);
+        }
+        #myForm{
+          width: 300px;
+          padding: 0 10px;
+        }
     </style>
   </head>
   <body>
-    <h1>ELEGANT LOGIN FORM</h1>
+    
     <div class="login">
-      <h2> LOG IN</h2>
+      <h1>ELEGANT LOGIN FORM</h1>
       <form action="" id="myForm">
-          <input type="email" name="username" id="username">
-          <input type="password" name="password" id="password">
+         <h2> LOG IN</h2>
+          <input type="email" name="username" id="username" placeholder="Email">
+          <input type="password" name="password" id="password" placeholder="Password">
           <input type="submit" name="submit" id="submit" value="Submit">
       </form>
     </div>
